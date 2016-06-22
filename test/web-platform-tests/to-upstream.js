@@ -51,7 +51,11 @@ describe("Local tests in Web Platform Test format (to-upstream)", () => {
     "encoding/meta/meta-http-equiv-reverse.html",
     "encoding/meta/meta-http-equiv-simple-quotes.html",
     "encoding/meta/meta-http-equiv-no-quotes.html",
-    "encoding/meta/no-meta.html"
+    "encoding/meta/no-meta.html",
+    "custom-elements/define.html"
+  ];
+  [
+    "custom-elements/define.html"
   ]
   .forEach(runWebPlatformTest);
 });
